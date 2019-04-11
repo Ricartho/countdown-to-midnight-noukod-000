@@ -10,7 +10,7 @@ def countdown(sg)
 end
 
 
-def countdown_with_sleep
+def countdown_with_sleep(sg)
    while sg > 0 
     puts "#{sg} SECOND(S)!"
     sg -= 1 
